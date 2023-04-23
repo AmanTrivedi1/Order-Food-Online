@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<div align="center">
+      <h1> <img src="https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2021/09/beef-burger.jpg" width="80px"><br/>Burger Ordering App</h1>
+     </div>
+# Take a Look
+<p align="center"> <a href="https://orderfood-vert.vercel.app/" target="_blank"><img alt="" src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1682269408/foodorderingapp/acqnrnfv1pdnydurvsyq.png" style="vertical-align:center" /></a> <a href="https://twitter.com/Aman_trivedi10" target="_blank"><img alt="" src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1682269445/foodorderingapp/wesrtuzyg48b99xpwr5f.png" style="vertical-align:center" /></a> <a href="https://www.instagram.com/" target="_blank"><img alt="" src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1682269418/foodorderingapp/qbp3kdqa1pxdyp9e7pao.png" style="vertical-align:center" /></a> <a href="}" target="_blank"><img alt="" src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1682269435/foodorderingapp/aiykhxlmjy1q3wb6lshs.png" style="vertical-align:center" /></a>
+<img alt="" src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1682269427/foodorderingapp/nbt1yayigvsyj9lhvglp.png" style="vertical-align:center" /></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</p>
 
-## Available Scripts
+# Description
+Burger Ordering app
 
-In the project directory, you can run:
+# Features
+Satisfy your burger cravings with just a few taps! Our burger ordering app lets you customize your order and track its delivery in real-time."
 
-### `npm start`
+1 You Can come to the website and go through it
+ 2 Select your favorite burger
+3 Go to the cart and add it
+4 Go to the checkout
+5 choose your payment option
+6 do order and you are done
+7 now track your order      
+# Add More Details:
+Anything else that you want to add for users? You can write it here in markdown and see preview in real time. You can add anything that you want, for example
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### You can add How to Setup:
+- Step 1: Make a clone of it
+- Step 2: Open into you workspace
+- Step 3: Install or Run cmd NPM i
+- Step 4: Make your Own razor Pay key and secret key
+- Step 5: Add .env file with jwt secret key 
+- Step 6: Run cmd NPM start
+- Step 7: Magic will happen
+- Step 8: Give some credit
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+    
