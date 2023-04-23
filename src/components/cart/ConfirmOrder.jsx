@@ -115,7 +115,9 @@ const ConfirmOrder = () => {
     <section className="confirmOrder">
       <main>
         <h1>Confirm Order</h1>
-
+        <p className="para">
+          Please Choose you compatible method to pay the amount
+        </p>
         <form onSubmit={submitHandler}>
           <div>
             <label>Cash On Delivery</label>

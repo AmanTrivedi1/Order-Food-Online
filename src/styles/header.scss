@@ -2,33 +2,35 @@
 
 nav {
   height: 5rem;
-  padding: 2rem;
+  padding: 1rem 8rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
-  background-color: white;
+  background-color: $background;
 
   > div {
     display: flex;
     align-items: center;
 
     > svg {
-      color: $red;
-      font-size: 3rem;
+      color: $maindark;
+      cursor: pointer;
+      font-size: 2rem;
     }
 
     > a {
-      margin: 0 2rem;
+      margin: 0rem 2rem;
       color: $dark;
       transition: color 0.3s;
+      font-size: 1.4rem;
 
       &:hover {
         color: $lightdark;
       }
 
       > svg {
-        color: $red;
+        color: $maindark;
         transition: inherit;
         font-size: 1.5rem;
         &:hover {

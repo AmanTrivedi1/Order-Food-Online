@@ -9,8 +9,9 @@ const NotFound = () => {
           <MdError />
           <h1>404</h1>
         </div>
-
-        <p>Page not found, click below to go to home page.</p>
+        <p className="notfound__para">
+          Page not found, click below to go to home page.
+        </p>
         <Link to="/">Go to Home</Link>
       </main>
     </section>

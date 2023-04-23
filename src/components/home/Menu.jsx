@@ -1,8 +1,8 @@
 import React from "react";
 import MenuCard from "./MenuCard";
-import burger1 from "../../assets/burger1.png";
-import burger2 from "../../assets/burger2.png";
-import burger3 from "../../assets/burger3.png";
+import burger1 from "../../assets/burger/oneBurger.jpg";
+import burger2 from "../../assets/burger/twoBurger.jpg";
+import burger3 from "../../assets/burger/threeBurger.jpg";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
 
@@ -36,36 +36,40 @@ const Menu = () => {
   };
 
   return (
-    <section id="menu">
-      <h1>MENU</h1>
-
-      <div>
-        <MenuCard
-          itemNum={1}
-          burgerSrc={burger1}
-          price={200}
-          title="Cheese Burger"
-          handler={addToCartHandler}
-          delay={0.1}
-        />
-        <MenuCard
-          itemNum={2}
-          burgerSrc={burger2}
-          price={500}
-          title="Veg Cheese Burger"
-          delay={0.5}
-          handler={addToCartHandler}
-        />
-        <MenuCard
-          itemNum={3}
-          burgerSrc={burger3}
-          price={1800}
-          title="Cheese Burger with French Fries"
-          delay={0.8}
-          handler={addToCartHandler}
-        />
+    <>
+      <div class="container">
+        <span class="subheading">Pricing</span>
+        <h2 class="heading-secondary">Eating well without breaking the bank</h2>
       </div>
-    </section>
+      <section id="menu">
+        <div>
+          <MenuCard
+            itemNum={1}
+            burgerSrc={burger1}
+            price={200}
+            title="Cheese Burger"
+            handler={addToCartHandler}
+            delay={0.1}
+          />
+          <MenuCard
+            itemNum={2}
+            burgerSrc={burger2}
+            price={500}
+            title="Veg Cheese Burger"
+            delay={0.5}
+            handler={addToCartHandler}
+          />
+          <MenuCard
+            itemNum={3}
+            burgerSrc={burger3}
+            price={1800}
+            title="Cheese Burger with French Fries"
+            delay={0.8}
+            handler={addToCartHandler}
+          />
+        </div>
+      </section>
+    </>
   );
 };
 
