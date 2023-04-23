@@ -53,28 +53,43 @@ a {
     }
   }
 }
-
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.load {
   height: 100vh;
-  > svg {
-    font-size: 15rem;
-    color: $red;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.3;
-  }
-
-  > div {
-    font-size: 2rem;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  display: block;
+  --height-of-loader: 4px;
+  --loader-color: #e67e22;
+  width: 130px;
+  height: var(--height-of-loader);
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
-.notfound__para {
-  font-size: 1.6rem;
-  text-align: center;
+.loader::before {
+  content: "";
+  position: absolute;
+  background: var(--loader-color);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 30px;
+  animation: moving 1s ease-in-out infinite;
+}
+
+@keyframes moving {
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0;
+    right: 0;
+    left: unset;
+  }
 }

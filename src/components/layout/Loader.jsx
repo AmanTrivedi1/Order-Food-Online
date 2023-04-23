@@ -17,12 +17,8 @@ const Loader = () => {
     },
   };
   return (
-    <div className="loader">
-      <IoFastFoodOutline />
-
-      <div>
-        <motion.p {...options}>Loading...</motion.p>
-      </div>
+    <div className="load">
+      <div class="loader"></div>;
     </div>
   );
 };
