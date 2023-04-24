@@ -11,19 +11,9 @@
 Burger Ordering app
 
 # Features
-Satisfy your burger cravings with just a few taps! Our burger ordering app lets you customize your order and track its delivery in real-time."
+Satisfy your burger cravings with just a few taps! Our burger ordering app lets you customize your order and track its delivery in real-time.
 
-1 You Can come to the website and go through it
- 2 Select your favorite burger
-3 Go to the cart and add it
-4 Go to the checkout
-5 choose your payment option
-6 do order and you are done
-7 now track your order      
-# Add More Details:
-Anything else that you want to add for users? You can write it here in markdown and see preview in real time. You can add anything that you want, for example
-
-### You can add How to Setup:
+### How to Setup:
 - Step 1: Make a clone of it
 - Step 2: Open into you workspace
 - Step 3: Install or Run cmd NPM i
@@ -35,5 +25,5 @@ Anything else that you want to add for users? You can write it here in markdown 
 
  
 
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
+
     
