@@ -89,7 +89,7 @@ const ConfirmOrder = () => {
         },
 
         theme: {
-          color: "#9c003c",
+          color: "#e67e22",
         },
       };
       const razorpay = new window.Razorpay(options);

@@ -1,7 +1,7 @@
 @import "colors";
 .footer {
   display: flex;
-  background-color: #ffffff;
+  background-color: $background;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -18,4 +18,15 @@
     font-size: 1.6rem;
     text-align: center;
   }
+}
+
+.heart__para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heart__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

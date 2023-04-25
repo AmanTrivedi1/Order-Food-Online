@@ -13,7 +13,7 @@ import OrderDetails from "./components/myOrders/OrderDetails";
 import Dashboard from "./components/admin/Dashboard";
 import Users from "./components/admin/Users";
 import Orders from "./components/admin/Orders";
-import About from "./components/about/About";
+
 import NotFound from "./components/layout/NotFound";
 import { loadUser } from "./redux/actions/user";
 import toast, { Toaster } from "react-hot-toast";
@@ -68,11 +68,9 @@ function App() {
       <Header isAuthenticated={isAuthenticated} />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
-        <Route path="/about" element={<About />} />
+
         <Route path="/cart" element={<Cart />} />
         <Route path="/paymentsuccess" element={<PaymentSuccess />} />
-
         <Route
           path="/login"
           element={
@@ -81,7 +79,6 @@ function App() {
             </ProtectedRoute>
           }
         />
-
         <Route element={<ProtectedRoute isAuthenticated={isAuthenticated} />}>
           <Route path="/me" element={<Profile />} />
           <Route path="/shipping" element={<Shipping />} />

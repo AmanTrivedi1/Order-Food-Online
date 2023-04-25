@@ -37,12 +37,8 @@ const Dashboard = () => {
         data: ordersCount
           ? [ordersCount.preparing, ordersCount.shipped, ordersCount.delivered]
           : [0, 0, 0],
-        backgroundColor: [
-          "rgba(159,63,176,0.1)",
-          "rgba(78,63,176,0.2)",
-          "rgba(156,0,60,0.3)",
-        ],
-        borderColor: ["rgb(159,63,176)", "rgb(78,63,176)", "rgb(156,0,60)"],
+        backgroundColor: ["#F7464A", "#FDB45C", "#4D5360"],
+        borderColor: ["#F7464A", "#FDB45C", "#4D5360"],
         borderWidth: 1,
       },
     ],
